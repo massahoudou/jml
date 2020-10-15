@@ -1,0 +1,389 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+header nav {
+    height: 65px;
+    box-shadow: 0 0 10px 0px rgba(17, 16, 17, 0.6);
+    width: 100%;
+    background: rgba(2, 2, 2, 0.658);
+
+}
+
+header {
+    background-image: url('../image/blog-26-1355x1000.jpg');
+    object-fit: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+header nav img {
+    width: 4%;
+    border-radius: 55px;
+    margin-left: 70px;
+    position: absolute;
+}
+
+header nav a {
+    margin-top: 15px;
+    color: #f5fbf2;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+header nav a.active {
+    color: rgb(255, 128, 59);
+}
+
+header nav a:hover {
+
+    color: rgb(255, 124, 61);
+    transition: .5s;
+}
+
+
+
+
+header nav div a {
+    float: right;
+}
+
+header nav div {
+    margin-left: 10%;
+}
+
+.header {
+    width: 100%;
+    height: 400px;
+}
+
+.header_div {
+    position: absolute;
+    color: white;
+    margin-top: 5%;
+    text-align: center;
+    width: 100%;
+}
+.header_div div
+{
+    margin-top: 100px;
+}
+.header_div .p1
+{
+    color: rgb(245, 81, 21);
+    background-color: white;
+    border-radius: 25px 0 25px 0;
+    margin-left: 25%;
+    margin-right:25% ;
+}
+.header_div h3 {
+    font-size: 35px;
+    font-family: "HP Simplified Light";
+}
+
+.header_div a {
+
+    box-shadow: 0px 2px 15px 0 rgba(219, 116, 31, 0.76);
+    border-radius: 2px ;
+    font-size: 17px;
+    background: rgb(245, 97, 29);
+    color: white;
+    padding:  10px 16px;
+    font-family:"HP Simplified Light";
+}
+
+.header_div a:hover {
+    text-decoration: none;
+    background: rgb(245, 97, 29);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border: none;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+hr {
+    background: lavenderblush;
+}
+
+.header_div h1 {
+    font-size: 65px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Imprint MT Shadow";
+}
+
+.section1 {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+    margin-right: 10%;
+    position: ;
+}
+
+.section1 div .img_shadow {
+    width: 65%;
+    box-shadow: 0px 0px 10px 0 rgba(58, 57, 56, 0.74);
+    border-radius: 30px 0 30px 0;
+}
+
+
+.section1 div h3, .section2 div h3, .section3 div h3,.section4 h3,.section5 h3{
+    font-family: "HP Simplified Light";
+    text-transform: uppercase;
+    border-left: 6px solid rgba(247, 113, 36, 0.96);
+    padding-left: 5px;
+}
+
+.section1 div div {
+    font-family: "HP Simplified Light";
+    float: right;
+}
+
+.Section div div p {
+    padding: 10px;
+}
+
+.section2 {
+    margin-top: 10%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.section2 div h3, .section3 div h3 {
+    font-family: "HP Simplified Light";
+    font-size: ;
+    text-transform: uppercase;
+}
+
+.h2 {
+    font-family: "HP Simplified Light";
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: rgb(247, 96, 9);
+    background-color: rgb(255, 255, 255);
+}
+
+.section2_content {
+    width: 100%;
+    padding-left: 15%;
+    background: url("../image/parallax-3.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.section2_titre {
+    margin-left: 10%;
+}
+
+.form{
+    width: 25%;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0 0 10px 0 rgba(220, 220, 220, 0.81);
+    position: absolute;
+    margin-left: 35%;
+    top: 15%;
+    font-family: "HP Simplified";
+}
+
+.section4_represantants
+{
+    display: flex;
+    padding-left:10%;
+    width: 100%;
+}
+.section4_represantants div p
+{
+
+    font-family: "HP Simplified Light";
+}
+.section4_represantants div h4
+{
+    font-family:"HP Simplified Light";
+    font-size: 19px;
+    color: orangered;
+
+}
+.contact-imgae
+{
+    margin:10px auto auto 10%;
+}
+.contact
+{
+    width: 30%;
+    padding: 40px auto;
+    float: right;
+    margin:10% 9% 7% 0;
+    font-family: "HP Simplified Light";
+}
+.contact-form
+{
+    box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 0 0 7px  7px ;
+    background: rgba(118, 59, 23, 0.8);
+    padding: 4%;
+}
+.section5
+{
+    width: 100%;
+    display:flex;
+    flex:1;
+
+}
+.section5  input[type="text"] , .section5 input[type="email"] ,input[type="number"]
+{
+    border: none;
+    background: transparent;
+    width: 100%;
+    color: white;
+    border-bottom:  2px solid #ff5b43;
+    padding:10px;
+}
+ .textarea
+{
+    border:none;
+     width: 100%;
+     background: transparent;
+     color: white;
+}
+ .contact-form .link
+ {
+     color: white;
+     border: none;
+     padding: 12px 25px 12px 25px;
+     background: #ac5026ea;
+ }
+.contact-form .link:hover
+{
+    font-size: 16px;
+    text-decoration:none ;
+    transition: .5s;
+
+}
+footer
+{
+    background: rgba(32, 17, 10, 0.89);
+    margin-bottom: 0px;
+}
+
+footer .copyright
+{
+    width: 100%;
+    height: 50px;
+    padding: 50px;
+    font-family:"Arial Black";
+    color: rgba(231, 214, 213, 0.863);
+    text-align: center;
+    margin-bottom: Opx ;
+}
+.section6 {
+    height: 350px;
+    width: 100%;
+    background: url("../image/hunters-race-MYbhN8KaaEc-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex: 1;
+    padding: 5%;
+    text-align: center;
+    font-family: "Arial Black";
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.section6 .prix1 ,.section6 .prix2, .section6 .prix3
+{
+    border-top: 2px dashed #ff7129;
+    border-bottom: 2px dashed #ff7129;
+    width: 60%;
+
+    height: 200px;
+
+}
+.section6 .chiffre {
+    color: #ff7129;
+    font-size: 5em;
+}
+.section6 .lettre
+{
+    color: #ff7129;
+    font-size: 1.5em;
+    font-family: "HP Simplified Light";
+}
+
+
+
+.post-slider .post-wrapper
+{
+
+    width: 84%;
+    height: 350px;
+    margin: 0px auto ;
+    display: flex;
+    flex: 5;
+}
+.post-slider .post-wrapper .post
+{
+
+    width: 23%;
+    margin:5px 15px 0px 15px;
+}
+.card_color
+{
+    background-color: #f3773e;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.geoloca
+{
+    font-size: 20px;
+    color: orangered;
+}
+.to-top
+{
+  
+  bottom: 50px;
+  right: 20px;
+  background-color: #f3773e ;
+  color: white;
+  padding: 12px 17px ;
+  border-radius: 50%;
+  position: fixed;
+}
+.to-top:hover
+{
+  background-color: #f1cedd;
+  color: #f3773e;
+  text-decoration: none;
+  transition: all ease-in 1s;
+}
+.bg
+{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.form_add
+{
+    margin-left: 15%;
+}
+
